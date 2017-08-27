@@ -3,12 +3,12 @@ package blockstore
 import (
 	"context"
 
-	"gx/ipfs/QmVA4mafxbfH5aEvNz8fyoxC6J1xhAtw88B4GerPznSZBg/go-block-format"
+	"github.com/ipfs/go-block-format"
 
-	"gx/ipfs/QmRg1gKTHzc3CZXSKzem8aR4E3TubFhbgXwfVuWnSK5CC5/go-metrics-interface"
-	cid "gx/ipfs/QmTprEaAA2A9bst5XH7exuyi5KzNMK3SEDNN8rBDnKWcUS/go-cid"
-	ds "gx/ipfs/QmVSase1JP7cq9QkPT46oNwdp9pT6kBkG3oqS14y3QcZjG/go-datastore"
-	lru "gx/ipfs/QmVYxfoJQiZijTgPNHCHgHELvQpbsJNTg6Crmc3dQkj3yy/golang-lru"
+	lru "github.com/hashicorp/golang-lru"
+	cid "github.com/ipfs/go-cid"
+	ds "github.com/ipfs/go-datastore"
+	"github.com/ipfs/go-metrics-interface"
 )
 
 // arccache wraps a BlockStore with an Adaptive Replacement Cache (ARC) for

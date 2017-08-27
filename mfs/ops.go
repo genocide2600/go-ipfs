@@ -9,7 +9,7 @@ import (
 
 	path "github.com/ipfs/go-ipfs/path"
 
-	node "gx/ipfs/QmYNyRZJBUYPNrLszFmrBrPJbsBh2vMsefz5gnDpB5M1P6/go-ipld-format"
+	node "github.com/ipfs/go-ipld-format"
 )
 
 // Mv moves the file or directory at 'src' to 'dst'

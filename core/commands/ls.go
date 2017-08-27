@@ -16,7 +16,7 @@ import (
 	uio "github.com/ipfs/go-ipfs/unixfs/io"
 	unixfspb "github.com/ipfs/go-ipfs/unixfs/pb"
 
-	node "gx/ipfs/QmYNyRZJBUYPNrLszFmrBrPJbsBh2vMsefz5gnDpB5M1P6/go-ipld-format"
+	node "github.com/ipfs/go-ipld-format"
 )
 
 type LsLink struct {

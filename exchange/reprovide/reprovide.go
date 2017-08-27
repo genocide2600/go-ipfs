@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"time"
 
-	backoff "gx/ipfs/QmPJUtEJsm5YLUWhF6imvyCH8KZXRJa9Wup7FDMwTy5Ufz/backoff"
-	routing "gx/ipfs/QmPjTrrSfE6TzLv6ya6VWhGcCgPrUAdcgrDcQyRDX2VyW1/go-libp2p-routing"
-	logging "gx/ipfs/QmSpJByNKFX1sCsHBEp3R73FL4NF6FnQTEGyNAXHm2GS52/go-log"
-	cid "gx/ipfs/QmTprEaAA2A9bst5XH7exuyi5KzNMK3SEDNN8rBDnKWcUS/go-cid"
+	backoff "github.com/cenkalti/backoff"
+	cid "github.com/ipfs/go-cid"
+	logging "github.com/ipfs/go-log"
+	routing "github.com/libp2p/go-libp2p-routing"
 )
 
 var log = logging.Logger("reprovider")

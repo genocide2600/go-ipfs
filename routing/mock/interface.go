@@ -8,11 +8,11 @@ import (
 	"context"
 
 	delay "github.com/ipfs/go-ipfs/thirdparty/delay"
-	"gx/ipfs/QmZJD56ZWLViJAVkvLc7xbbDerHzUMLr2X4fLRYfbxZWDN/go-testutil"
+	"github.com/libp2p/go-testutil"
 
-	routing "gx/ipfs/QmPjTrrSfE6TzLv6ya6VWhGcCgPrUAdcgrDcQyRDX2VyW1/go-libp2p-routing"
-	ds "gx/ipfs/QmVSase1JP7cq9QkPT46oNwdp9pT6kBkG3oqS14y3QcZjG/go-datastore"
-	peer "gx/ipfs/QmXYjuNuxVzXKJCfWasQk1RqkhVLDM9jtUKhqc2WPQmFSB/go-libp2p-peer"
+	ds "github.com/ipfs/go-datastore"
+	peer "github.com/libp2p/go-libp2p-peer"
+	routing "github.com/libp2p/go-libp2p-routing"
 )
 
 // Server provides mockrouting Clients

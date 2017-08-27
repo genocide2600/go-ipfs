@@ -6,8 +6,8 @@ import (
 
 	wl "github.com/ipfs/go-ipfs/exchange/bitswap/wantlist"
 
-	cid "gx/ipfs/QmTprEaAA2A9bst5XH7exuyi5KzNMK3SEDNN8rBDnKWcUS/go-cid"
-	peer "gx/ipfs/QmXYjuNuxVzXKJCfWasQk1RqkhVLDM9jtUKhqc2WPQmFSB/go-libp2p-peer"
+	cid "github.com/ipfs/go-cid"
+	peer "github.com/libp2p/go-libp2p-peer"
 )
 
 func newLedger(p peer.ID) *ledger {

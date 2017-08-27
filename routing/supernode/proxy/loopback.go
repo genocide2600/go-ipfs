@@ -2,10 +2,10 @@ package proxy
 
 import (
 	context "context"
-	peer "gx/ipfs/QmXYjuNuxVzXKJCfWasQk1RqkhVLDM9jtUKhqc2WPQmFSB/go-libp2p-peer"
-	ggio "gx/ipfs/QmZ4Qi3GaRbjcx28Sme5eMH7RQjGkt8wHxt2a65oLaeFEV/gogo-protobuf/io"
-	dhtpb "gx/ipfs/QmZSEstKChFezMwTcAWH5UQxvRckmnvgVZjFeSnGLDHU3Y/go-libp2p-kad-dht/pb"
-	inet "gx/ipfs/QmahYsGWry85Y7WUe2SX5G4JkH2zifEQAUtJVLZ24aC9DF/go-libp2p-net"
+	ggio "github.com/gogo/protobuf/io"
+	dhtpb "github.com/libp2p/go-libp2p-kad-dht/pb"
+	inet "github.com/libp2p/go-libp2p-net"
+	peer "github.com/libp2p/go-libp2p-peer"
 )
 
 // RequestHandler handles routing requests locally

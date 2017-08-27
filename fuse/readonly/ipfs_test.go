@@ -20,11 +20,11 @@ import (
 	chunk "github.com/ipfs/go-ipfs/importer/chunk"
 	dag "github.com/ipfs/go-ipfs/merkledag"
 	uio "github.com/ipfs/go-ipfs/unixfs/io"
-	ci "gx/ipfs/QmZJD56ZWLViJAVkvLc7xbbDerHzUMLr2X4fLRYfbxZWDN/go-testutil/ci"
+	ci "github.com/libp2p/go-testutil/ci"
 
-	u "gx/ipfs/QmSU6eubNdhXjFBJBSksTp8kv8YRub8mGAPv8tVJHmL2EU/go-ipfs-util"
-	node "gx/ipfs/QmYNyRZJBUYPNrLszFmrBrPJbsBh2vMsefz5gnDpB5M1P6/go-ipld-format"
-	fstest "gx/ipfs/QmaFNtBAXX4nVMQWbUqNysXyhevUj1k4B1y5uS45LC7Vw9/fuse/fs/fstestutil"
+	fstest "bazil.org/fuse/fs/fstestutil"
+	u "github.com/ipfs/go-ipfs-util"
+	node "github.com/ipfs/go-ipld-format"
 )
 
 func maybeSkipFuseTests(t *testing.T) {

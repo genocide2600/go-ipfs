@@ -3,12 +3,12 @@ package ipfsaddr
 import (
 	"errors"
 
-	ma "gx/ipfs/QmXY77cVe7rVRQXZZQRioukUM7aRW3BTcAgJe12MCtb3Ji/go-multiaddr"
+	ma "github.com/multiformats/go-multiaddr"
 
 	path "github.com/ipfs/go-ipfs/path"
-	logging "gx/ipfs/QmSpJByNKFX1sCsHBEp3R73FL4NF6FnQTEGyNAXHm2GS52/go-log"
-	peer "gx/ipfs/QmXYjuNuxVzXKJCfWasQk1RqkhVLDM9jtUKhqc2WPQmFSB/go-libp2p-peer"
-	circuit "gx/ipfs/QmYBGpZ3hV89RZTd3CTjjgjgcX64QnbcBS9dCqU7mCgS1n/go-libp2p-circuit"
+	logging "github.com/ipfs/go-log"
+	circuit "github.com/libp2p/go-libp2p-circuit"
+	peer "github.com/libp2p/go-libp2p-peer"
 )
 
 var log = logging.Logger("ipfsaddr")

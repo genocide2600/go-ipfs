@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"os"
 
+	cid "github.com/ipfs/go-cid"
 	mdag "github.com/ipfs/go-ipfs/merkledag"
 	format "github.com/ipfs/go-ipfs/unixfs"
 	hamt "github.com/ipfs/go-ipfs/unixfs/hamt"
-	cid "gx/ipfs/QmTprEaAA2A9bst5XH7exuyi5KzNMK3SEDNN8rBDnKWcUS/go-cid"
 
-	node "gx/ipfs/QmYNyRZJBUYPNrLszFmrBrPJbsBh2vMsefz5gnDpB5M1P6/go-ipld-format"
+	node "github.com/ipfs/go-ipld-format"
 )
 
 // ShardSplitThreshold specifies how large of an unsharded directory

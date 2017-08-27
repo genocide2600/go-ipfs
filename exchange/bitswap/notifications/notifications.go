@@ -3,10 +3,10 @@ package notifications
 import (
 	"context"
 
-	blocks "gx/ipfs/QmVA4mafxbfH5aEvNz8fyoxC6J1xhAtw88B4GerPznSZBg/go-block-format"
+	blocks "github.com/ipfs/go-block-format"
 
+	cid "github.com/ipfs/go-cid"
 	pubsub "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/briantigerchow/pubsub"
-	cid "gx/ipfs/QmTprEaAA2A9bst5XH7exuyi5KzNMK3SEDNN8rBDnKWcUS/go-cid"
 )
 
 const bufferSize = 16

@@ -4,7 +4,7 @@ import (
 	"github.com/ipfs/go-ipfs/core/coredag"
 	"github.com/ipfs/go-ipfs/plugin"
 
-	format "gx/ipfs/QmYNyRZJBUYPNrLszFmrBrPJbsBh2vMsefz5gnDpB5M1P6/go-ipld-format"
+	format "github.com/ipfs/go-ipld-format"
 )
 
 func initialize(plugins []plugin.Plugin) error {

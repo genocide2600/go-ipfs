@@ -10,13 +10,13 @@ package filestore
 import (
 	"context"
 
+	"github.com/ipfs/go-block-format"
 	"github.com/ipfs/go-ipfs/blocks/blockstore"
 	posinfo "github.com/ipfs/go-ipfs/thirdparty/posinfo"
-	"gx/ipfs/QmVA4mafxbfH5aEvNz8fyoxC6J1xhAtw88B4GerPznSZBg/go-block-format"
 
-	logging "gx/ipfs/QmSpJByNKFX1sCsHBEp3R73FL4NF6FnQTEGyNAXHm2GS52/go-log"
-	cid "gx/ipfs/QmTprEaAA2A9bst5XH7exuyi5KzNMK3SEDNN8rBDnKWcUS/go-cid"
-	dsq "gx/ipfs/QmVSase1JP7cq9QkPT46oNwdp9pT6kBkG3oqS14y3QcZjG/go-datastore/query"
+	cid "github.com/ipfs/go-cid"
+	dsq "github.com/ipfs/go-datastore/query"
+	logging "github.com/ipfs/go-log"
 )
 
 var log = logging.Logger("filestore")

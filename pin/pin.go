@@ -12,10 +12,10 @@ import (
 	mdag "github.com/ipfs/go-ipfs/merkledag"
 	dutils "github.com/ipfs/go-ipfs/merkledag/utils"
 
-	logging "gx/ipfs/QmSpJByNKFX1sCsHBEp3R73FL4NF6FnQTEGyNAXHm2GS52/go-log"
-	cid "gx/ipfs/QmTprEaAA2A9bst5XH7exuyi5KzNMK3SEDNN8rBDnKWcUS/go-cid"
-	ds "gx/ipfs/QmVSase1JP7cq9QkPT46oNwdp9pT6kBkG3oqS14y3QcZjG/go-datastore"
-	node "gx/ipfs/QmYNyRZJBUYPNrLszFmrBrPJbsBh2vMsefz5gnDpB5M1P6/go-ipld-format"
+	cid "github.com/ipfs/go-cid"
+	ds "github.com/ipfs/go-datastore"
+	node "github.com/ipfs/go-ipld-format"
+	logging "github.com/ipfs/go-log"
 )
 
 var log = logging.Logger("pin")

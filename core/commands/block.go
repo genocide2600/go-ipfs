@@ -10,10 +10,10 @@ import (
 	util "github.com/ipfs/go-ipfs/blocks/blockstore/util"
 	cmds "github.com/ipfs/go-ipfs/commands"
 
-	u "gx/ipfs/QmSU6eubNdhXjFBJBSksTp8kv8YRub8mGAPv8tVJHmL2EU/go-ipfs-util"
-	cid "gx/ipfs/QmTprEaAA2A9bst5XH7exuyi5KzNMK3SEDNN8rBDnKWcUS/go-cid"
-	mh "gx/ipfs/QmU9a9NV9RdPNwZQDYd5uKsm6N6LJLSvLbywDDYFbaaC6P/go-multihash"
-	blocks "gx/ipfs/QmVA4mafxbfH5aEvNz8fyoxC6J1xhAtw88B4GerPznSZBg/go-block-format"
+	blocks "github.com/ipfs/go-block-format"
+	cid "github.com/ipfs/go-cid"
+	u "github.com/ipfs/go-ipfs-util"
+	mh "github.com/multiformats/go-multihash"
 )
 
 type BlockStat struct {

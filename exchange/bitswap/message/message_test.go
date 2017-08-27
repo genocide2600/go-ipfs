@@ -4,12 +4,12 @@ import (
 	"bytes"
 	"testing"
 
-	proto "gx/ipfs/QmZ4Qi3GaRbjcx28Sme5eMH7RQjGkt8wHxt2a65oLaeFEV/gogo-protobuf/proto"
+	proto "github.com/gogo/protobuf/proto"
 
+	blocks "github.com/ipfs/go-block-format"
+	cid "github.com/ipfs/go-cid"
+	u "github.com/ipfs/go-ipfs-util"
 	pb "github.com/ipfs/go-ipfs/exchange/bitswap/message/pb"
-	u "gx/ipfs/QmSU6eubNdhXjFBJBSksTp8kv8YRub8mGAPv8tVJHmL2EU/go-ipfs-util"
-	cid "gx/ipfs/QmTprEaAA2A9bst5XH7exuyi5KzNMK3SEDNN8rBDnKWcUS/go-cid"
-	blocks "gx/ipfs/QmVA4mafxbfH5aEvNz8fyoxC6J1xhAtw88B4GerPznSZBg/go-block-format"
 )
 
 func mkFakeCid(s string) *cid.Cid {

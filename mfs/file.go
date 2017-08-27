@@ -10,7 +10,7 @@ import (
 	ft "github.com/ipfs/go-ipfs/unixfs"
 	mod "github.com/ipfs/go-ipfs/unixfs/mod"
 
-	node "gx/ipfs/QmYNyRZJBUYPNrLszFmrBrPJbsBh2vMsefz5gnDpB5M1P6/go-ipld-format"
+	node "github.com/ipfs/go-ipld-format"
 )
 
 type File struct {

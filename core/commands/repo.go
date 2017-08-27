@@ -16,8 +16,8 @@ import (
 	fsrepo "github.com/ipfs/go-ipfs/repo/fsrepo"
 	lockfile "github.com/ipfs/go-ipfs/repo/fsrepo/lock"
 
-	u "gx/ipfs/QmSU6eubNdhXjFBJBSksTp8kv8YRub8mGAPv8tVJHmL2EU/go-ipfs-util"
-	cid "gx/ipfs/QmTprEaAA2A9bst5XH7exuyi5KzNMK3SEDNN8rBDnKWcUS/go-cid"
+	cid "github.com/ipfs/go-cid"
+	u "github.com/ipfs/go-ipfs-util"
 )
 
 type RepoVersion struct {

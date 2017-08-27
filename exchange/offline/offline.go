@@ -5,11 +5,11 @@ package offline
 import (
 	"context"
 
+	blocks "github.com/ipfs/go-block-format"
 	"github.com/ipfs/go-ipfs/blocks/blockstore"
 	exchange "github.com/ipfs/go-ipfs/exchange"
-	blocks "gx/ipfs/QmVA4mafxbfH5aEvNz8fyoxC6J1xhAtw88B4GerPznSZBg/go-block-format"
 
-	cid "gx/ipfs/QmTprEaAA2A9bst5XH7exuyi5KzNMK3SEDNN8rBDnKWcUS/go-cid"
+	cid "github.com/ipfs/go-cid"
 )
 
 func Exchange(bs blockstore.Blockstore) exchange.Interface {

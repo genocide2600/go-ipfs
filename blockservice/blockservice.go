@@ -12,9 +12,9 @@ import (
 	exchange "github.com/ipfs/go-ipfs/exchange"
 	bitswap "github.com/ipfs/go-ipfs/exchange/bitswap"
 
-	logging "gx/ipfs/QmSpJByNKFX1sCsHBEp3R73FL4NF6FnQTEGyNAXHm2GS52/go-log"
-	cid "gx/ipfs/QmTprEaAA2A9bst5XH7exuyi5KzNMK3SEDNN8rBDnKWcUS/go-cid"
-	blocks "gx/ipfs/QmVA4mafxbfH5aEvNz8fyoxC6J1xhAtw88B4GerPznSZBg/go-block-format"
+	blocks "github.com/ipfs/go-block-format"
+	cid "github.com/ipfs/go-cid"
+	logging "github.com/ipfs/go-log"
 )
 
 var log = logging.Logger("blockservice")

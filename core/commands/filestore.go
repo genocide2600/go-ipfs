@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"io"
 
+	cid "github.com/ipfs/go-cid"
+	u "github.com/ipfs/go-ipfs-util"
 	cmds "github.com/ipfs/go-ipfs/commands"
 	"github.com/ipfs/go-ipfs/core"
 	"github.com/ipfs/go-ipfs/filestore"
-	u "gx/ipfs/QmSU6eubNdhXjFBJBSksTp8kv8YRub8mGAPv8tVJHmL2EU/go-ipfs-util"
-	cid "gx/ipfs/QmTprEaAA2A9bst5XH7exuyi5KzNMK3SEDNN8rBDnKWcUS/go-cid"
 )
 
 var FileStoreCmd = &cmds.Command{

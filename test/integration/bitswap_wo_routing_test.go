@@ -4,13 +4,13 @@ import (
 	"bytes"
 	"testing"
 
+	"github.com/ipfs/go-block-format"
 	"github.com/ipfs/go-ipfs/core"
 	"github.com/ipfs/go-ipfs/core/mock"
-	"gx/ipfs/QmVA4mafxbfH5aEvNz8fyoxC6J1xhAtw88B4GerPznSZBg/go-block-format"
 
 	context "context"
-	cid "gx/ipfs/QmTprEaAA2A9bst5XH7exuyi5KzNMK3SEDNN8rBDnKWcUS/go-cid"
-	mocknet "gx/ipfs/QmZyngpQxUGyx1T2bzEcst6YzERkvVwDzBMbsSQF4f1smE/go-libp2p/p2p/net/mock"
+	cid "github.com/ipfs/go-cid"
+	mocknet "github.com/libp2p/go-libp2p/p2p/net/mock"
 )
 
 func TestBitswapWithoutRouting(t *testing.T) {

@@ -10,14 +10,14 @@ import (
 	"sync"
 	"time"
 
+	blocks "github.com/ipfs/go-block-format"
 	cmds "github.com/ipfs/go-ipfs/commands"
 	core "github.com/ipfs/go-ipfs/core"
-	blocks "gx/ipfs/QmVA4mafxbfH5aEvNz8fyoxC6J1xhAtw88B4GerPznSZBg/go-block-format"
 
-	pstore "gx/ipfs/QmPgDWmTmuzvP7QE5zwo1TmjbJme9pmZHNujB2453jkCTr/go-libp2p-peerstore"
-	u "gx/ipfs/QmSU6eubNdhXjFBJBSksTp8kv8YRub8mGAPv8tVJHmL2EU/go-ipfs-util"
-	cid "gx/ipfs/QmTprEaAA2A9bst5XH7exuyi5KzNMK3SEDNN8rBDnKWcUS/go-cid"
-	floodsub "gx/ipfs/QmddZj8gx1Ceisj3QEWeAzPEjCPWpXzneN1ANdkZdwUdc3/floodsub"
+	cid "github.com/ipfs/go-cid"
+	u "github.com/ipfs/go-ipfs-util"
+	floodsub "github.com/libp2p/go-floodsub"
+	pstore "github.com/libp2p/go-libp2p-peerstore"
 )
 
 var PubsubCmd = &cmds.Command{

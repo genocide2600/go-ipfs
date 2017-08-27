@@ -9,10 +9,10 @@ import (
 	bserv "github.com/ipfs/go-ipfs/blockservice"
 	offline "github.com/ipfs/go-ipfs/exchange/offline"
 
-	cid "gx/ipfs/QmTprEaAA2A9bst5XH7exuyi5KzNMK3SEDNN8rBDnKWcUS/go-cid"
-	blocks "gx/ipfs/QmVA4mafxbfH5aEvNz8fyoxC6J1xhAtw88B4GerPznSZBg/go-block-format"
-	node "gx/ipfs/QmYNyRZJBUYPNrLszFmrBrPJbsBh2vMsefz5gnDpB5M1P6/go-ipld-format"
-	ipldcbor "gx/ipfs/QmeebqVZeEXBqJ2B4urQWfdhwRRPm84ajnCo8x8pfwbsPM/go-ipld-cbor"
+	blocks "github.com/ipfs/go-block-format"
+	cid "github.com/ipfs/go-cid"
+	ipldcbor "github.com/ipfs/go-ipld-cbor"
+	node "github.com/ipfs/go-ipld-format"
 )
 
 // TODO: We should move these registrations elsewhere. Really, most of the IPLD

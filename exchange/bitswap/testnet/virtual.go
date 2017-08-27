@@ -8,12 +8,12 @@ import (
 	bsnet "github.com/ipfs/go-ipfs/exchange/bitswap/network"
 	mockrouting "github.com/ipfs/go-ipfs/routing/mock"
 	delay "github.com/ipfs/go-ipfs/thirdparty/delay"
-	testutil "gx/ipfs/QmZJD56ZWLViJAVkvLc7xbbDerHzUMLr2X4fLRYfbxZWDN/go-testutil"
+	testutil "github.com/libp2p/go-testutil"
 
-	routing "gx/ipfs/QmPjTrrSfE6TzLv6ya6VWhGcCgPrUAdcgrDcQyRDX2VyW1/go-libp2p-routing"
-	logging "gx/ipfs/QmSpJByNKFX1sCsHBEp3R73FL4NF6FnQTEGyNAXHm2GS52/go-log"
-	cid "gx/ipfs/QmTprEaAA2A9bst5XH7exuyi5KzNMK3SEDNN8rBDnKWcUS/go-cid"
-	peer "gx/ipfs/QmXYjuNuxVzXKJCfWasQk1RqkhVLDM9jtUKhqc2WPQmFSB/go-libp2p-peer"
+	cid "github.com/ipfs/go-cid"
+	logging "github.com/ipfs/go-log"
+	peer "github.com/libp2p/go-libp2p-peer"
+	routing "github.com/libp2p/go-libp2p-routing"
 )
 
 var log = logging.Logger("bstestnet")
