@@ -1,0 +1,29 @@
+{
+  "author": "whyrusleeping",
+  "bugs": {
+    "url": "https://github.com/whyrusleeping/go-smux-yamux"
+  },
+  "gx": {
+    "dvcsimport": "github.com/whyrusleeping/go-smux-yamux"
+  },
+  "gxDependencies": [
+    {
+      "author": "whyrusleeping",
+      "hash": "QmeqBLid3Nda8uqojQvXe5rQ5A4eG8mpZrCGqUqpS8U5g2",
+      "name": "yamux",
+      "version": "1.0.4"
+    },
+    {
+      "author": "whyrusleeping",
+      "hash": "QmY9JXR3FupnYAYJWK9aMr9bCpqWKcToQ1tz8DVGTrHpHw",
+      "name": "go-stream-muxer",
+      "version": "3.0.0"
+    }
+  ],
+  "gxVersion": "0.7.0",
+  "language": "go",
+  "license": "",
+  "name": "go-smux-yamux",
+  "version": "2.0.0"
+}
+
