@@ -2,10 +2,10 @@
 
 
 [[projects]]
-  branch = "master"
   name = "bazil.org/fuse"
   packages = [".","fs","fs/fstestutil","fuseutil"]
-  revision = "371fbbdaa8987b715bdd21d6adc4c9b20155f748"
+  revision = "73d29b6d1aee13403f7b7ffd3ead457e20f638b3"
+  source = "https://github.com/gxed/bazil-fuse"
 
 [[projects]]
   branch = "default"
@@ -296,11 +296,6 @@
   revision = "2e7ea655c10e4d4d73365f0f073b81b39cb08ee1"
 
 [[projects]]
-  name = "github.com/jbenet/go-stream-muxer"
-  packages = ["."]
-  revision = "e6b4fb7fef2a9e5189d463a7c661df5e6825177b"
-
-[[projects]]
   branch = "master"
   name = "github.com/jbenet/go-temp-err-catcher"
   packages = ["."]
@@ -457,10 +452,10 @@
   revision = "59400d5311f58f959ce2ebeb10a5e1d0deb6e7e5"
 
 [[projects]]
-  branch = "master"
+  branch = "fix/stream-muxer/libp2p"
   name = "github.com/libp2p/go-libp2p-swarm"
   packages = ["."]
-  revision = "5acb5026d7ce29f7fc28c13057c184450d87ef92"
+  revision = "21557f80f63c0f00920fad4d8834f4d5da393643"
 
 [[projects]]
   branch = "master"
@@ -475,15 +470,17 @@
   revision = "ac6a10c4e30dabf1a55aa0f51102ae4daed951fb"
 
 [[projects]]
-  branch = "master"
+  branch = "remove-serve"
   name = "github.com/libp2p/go-peerstream"
   packages = ["."]
-  revision = "c15fff8170cd6df69c5a5716e9f59d344ceab1e2"
+  revision = "c9b06722760d70728f6a2f3925fc1a09c6f75bde"
+  source = "https://github.com/marten-seemann/go-peerstream.git"
 
 [[projects]]
+  branch = "master"
   name = "github.com/libp2p/go-stream-muxer"
   packages = ["."]
-  revision = "e6b4fb7fef2a9e5189d463a7c661df5e6825177b"
+  revision = "78b5d54f5753799e7853cc8f38304a104a8e76b4"
 
 [[projects]]
   branch = "master"
@@ -672,16 +669,17 @@
   revision = "05f67c3f6eb7e4a8ef73b3fd773c0c69e0424d41"
 
 [[projects]]
-  branch = "master"
   name = "github.com/whyrusleeping/go-smux-multistream"
   packages = ["."]
-  revision = "a8f6f9a46f04c6c944000c59a0d06a767e75ae3a"
+  revision = "6fafe570892b47db67ae32c4d4eebcdaa206f309"
+  source = "https://github.com/marten-seemann/go-smux-multistream.git"
 
 [[projects]]
-  branch = "master"
+  branch = "remove-serve"
   name = "github.com/whyrusleeping/go-smux-spdystream"
   packages = ["."]
-  revision = "918f4921645fdc48cdc21a29e45b1a29f5e3a849"
+  revision = "ccb32dd6088c4b9e7e7526e66d31064966b56bd0"
+  source = "https://github.com/marten-seemann/go-smux-spdystream.git"
 
 [[projects]]
   branch = "master"
@@ -782,6 +780,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "eb0afe57dbbfbb2452a3ba0cc12f43a6addb7fd0b7baddac213602b7a513cc6f"
+  inputs-digest = "5ba176f32c640ce60b06d4780b910111fd953d60a72451d5399861fdfd64c5d8"
   solver-name = "gps-cdcl"
   solver-version = 1

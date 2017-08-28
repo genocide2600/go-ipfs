@@ -22,8 +22,9 @@
 
 
 [[constraint]]
-  branch = "master"
+  revision = "73d29b6d1aee13403f7b7ffd3ead457e20f638b3"
   name = "bazil.org/fuse"
+  source = "https://github.com/gxed/bazil-fuse"
 
 [[constraint]]
   branch = "master"
@@ -138,8 +139,8 @@
   name = "github.com/jbenet/go-is-domain"
 
 [[constraint]]
+  branch = "master"
   name = "github.com/libp2p/go-stream-muxer"
-  revision = "e6b4fb7fef2a9e5189d463a7c661df5e6825177b"
 
 [[constraint]]
   branch = "master"
@@ -231,10 +232,6 @@
 
 [[constraint]]
   branch = "master"
-  name = "github.com/libp2p/go-libp2p-swarm"
-
-[[constraint]]
-  branch = "master"
   name = "github.com/libp2p/go-maddr-filter"
 
 [[constraint]]
@@ -308,3 +305,25 @@
 [[constraint]]
   name = "gopkg.in/fsnotify.v1"
   version = "1.4.2"
+
+# Relevant
+
+[[constraint]]
+  branch = "fix/stream-muxer/libp2p"
+  name = "github.com/libp2p/go-libp2p-swarm"
+
+[[override]]
+  name = "github.com/whyrusleeping/go-smux-spdystream"
+  source = "https://github.com/marten-seemann/go-smux-spdystream.git"
+  branch = "remove-serve"
+
+[[override]]
+  name = "github.com/libp2p/go-peerstream"
+  source = "https://github.com/marten-seemann/go-peerstream.git"
+  branch = "remove-serve"
+
+[[override]]
+  revision = "6fafe570892b47db67ae32c4d4eebcdaa206f309"
+  name = "github.com/whyrusleeping/go-smux-multistream"
+  source = "https://github.com/marten-seemann/go-smux-multistream.git"
+
