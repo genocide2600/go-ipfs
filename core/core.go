@@ -47,7 +47,7 @@ import (
 	u "github.com/ipfs/go-ipfs-util"
 	logging "github.com/ipfs/go-log"
 	b58 "github.com/jbenet/go-base58"
-	smux "github.com/jbenet/go-stream-muxer"
+	smux "github.com/libp2p/go-stream-muxer"
 	goprocess "github.com/jbenet/goprocess"
 	addrutil "github.com/libp2p/go-addr-util"
 	floodsub "github.com/libp2p/go-floodsub"

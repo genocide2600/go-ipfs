@@ -138,7 +138,7 @@
   name = "github.com/jbenet/go-is-domain"
 
 [[constraint]]
-  name = "github.com/jbenet/go-stream-muxer"
+  name = "github.com/libp2p/go-stream-muxer"
   revision = "e6b4fb7fef2a9e5189d463a7c661df5e6825177b"
 
 [[constraint]]

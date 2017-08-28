@@ -11,7 +11,7 @@ import (
 	ds2 "github.com/ipfs/go-ipfs/thirdparty/datastore2"
 	testutil "github.com/libp2p/go-testutil"
 
-	smux "github.com/jbenet/go-stream-muxer"
+	smux "github.com/libp2p/go-stream-muxer"
 	host "github.com/libp2p/go-libp2p-host"
 	ipnet "github.com/libp2p/go-libp2p-interface-pnet"
 	metrics "github.com/libp2p/go-libp2p-metrics"

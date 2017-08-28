@@ -481,10 +481,9 @@
   revision = "c15fff8170cd6df69c5a5716e9f59d344ceab1e2"
 
 [[projects]]
-  branch = "master"
   name = "github.com/libp2p/go-stream-muxer"
   packages = ["."]
-  revision = "78b5d54f5753799e7853cc8f38304a104a8e76b4"
+  revision = "e6b4fb7fef2a9e5189d463a7c661df5e6825177b"
 
 [[projects]]
   branch = "master"
@@ -783,6 +782,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "9d857b4119def4e79cc73ecbf8d0e392db511a171f2c31eaa64f92dff6189a27"
+  inputs-digest = "eb0afe57dbbfbb2452a3ba0cc12f43a6addb7fd0b7baddac213602b7a513cc6f"
   solver-name = "gps-cdcl"
   solver-version = 1
