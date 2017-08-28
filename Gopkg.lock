@@ -501,12 +501,6 @@
   revision = "f2fb5ceb7d24bce04afd738441c7efc854a543f1"
 
 [[projects]]
-  name = "github.com/mattn/go-runewidth"
-  packages = ["."]
-  revision = "9e777a8366cce605130a531d2cd6363d07ad7317"
-  version = "v0.0.2"
-
-[[projects]]
   name = "github.com/matttproud/golang_protobuf_extensions"
   packages = ["pbutil"]
   revision = "3247c84500bff8d9fb6d579d800f20b3e091582c"
@@ -762,8 +756,7 @@
 [[projects]]
   name = "gopkg.in/cheggaaa/pb.v1"
   packages = ["."]
-  revision = "657164d0228d6bebe316fdf725c69f131a50fb10"
-  version = "v1.0.18"
+  revision = "c1f48d5ce4f292dfb775ef52aaedd15be323510d"
 
 [[projects]]
   name = "gopkg.in/fsnotify.v1"
@@ -780,6 +773,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "5ba176f32c640ce60b06d4780b910111fd953d60a72451d5399861fdfd64c5d8"
+  inputs-digest = "1c7e4fbcc2d4fa1d76a7040ea4c192704edeafa61d43d99f9459ca298be85b40"
   solver-name = "gps-cdcl"
   solver-version = 1
