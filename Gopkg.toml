@@ -60,10 +60,6 @@
 
 [[constraint]]
   branch = "master"
-  name = "github.com/golang/protobuf"
-
-[[constraint]]
-  branch = "master"
   name = "github.com/gxed/bbloom"
 
 [[constraint]]
